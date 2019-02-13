@@ -1,10 +1,8 @@
 using System;
-
 namespace challenge
 {
     public class square
     {
-        
         public static int Height = 20;
 
         static void Main(string[] args)
@@ -39,7 +37,6 @@ namespace challenge
         }
         private static void Method1()
         {
-
             for (int i = 0; i <= Height; i++)
             {
                 for (int l = 0; l <= Height; l++)
@@ -55,8 +52,6 @@ namespace challenge
         }
         private static void Method2()
         {
-          
-
             for (int i = 0; i <= Height; i++)
             {
                 for (int l = 0; l <= Height; l++)
@@ -72,8 +67,6 @@ namespace challenge
         }
         private static void Method3()
         {
-            
-
             for (int i = 0; i <= Height; i++)
             {
                 for (int l = 0; l <= Height; l++)
