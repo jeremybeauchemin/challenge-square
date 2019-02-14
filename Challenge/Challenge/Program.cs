@@ -3,7 +3,7 @@ namespace challenge
 {
     public class square
     {
-        public static int Height = 20;
+        public static int Height;
 
         static void Main(string[] args)
         {
@@ -29,10 +29,7 @@ namespace challenge
             {
                 Environment.Exit(4);
             }
-            else
-            {
-                Console.WriteLine("you can jsute enter number dumbass");
-            }
+            
             Console.WriteLine();
         }
         private static void Method1()
